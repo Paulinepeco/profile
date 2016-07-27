@@ -1,5 +1,5 @@
 body {
-    background: #EBEBEB;
+    background-image:url("images/ananas.jpg");
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #7d7d7d;
@@ -114,4 +114,5 @@ li {
 
 #text-intro {
   padding-bottom: 50px;
+  margin-top: 50px;
 }
