@@ -23,6 +23,50 @@ a:hover {
   text-decoration: none;
 }
 
+#sidebar {
+  background-color: #3FAC83;
+  position: fixed;
+  width: 0px;
+  left: 30px;
+  top: 0px;
+  bottom: 0px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#menu {
+  color: #3FAC83;
+  position: fixed;
+  text-align: center;
+  padding-left: 0px;
+  padding-right:0px;
+  padding-top: 0px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.round-background {
+  width: 50px;
+  height: 50px;
+  background-color: #F3D54F;
+  font-color: #3FAC83;
+
+  border-radius: 50%;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.round-background:hover {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#page-content {
+  margin-top: 120px;
+}
+
 .div-style {
   background: white;
   padding: 20px;
@@ -112,7 +156,8 @@ li {
   border-radius: 50%;
 }
 
-#text-intro {
+.text-intro {
   padding-bottom: 50px;
+  padding-top: 50px;
   margin-top: 50px;
 }
