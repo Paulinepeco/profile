@@ -1,0 +1,117 @@
+body {
+    background: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+h1 {
+  color: #3FAC83;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3FAC83;
+  text-decoration: none;
+}
+
+.div-style {
+  background: white;
+  padding: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+#profile {
+  width: 150px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+#table-gif {
+  margin:auto;
+}
+
+#margin-bottom {
+  margin-bottom: 40px;
+}
+
+.green-button {
+  background-color: #3FAC83;
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.images-div1 {
+  width: 500px;
+  height: 275px;
+  background : url("images/mexicanfood.gif") no-repeat;
+}
+
+.images-div1:hover {
+  background-image:url("images/mexican.jpg")
+}
+
+.images-div2 {
+  width: 500px;
+  height: 275px;
+  background : url("images/cats.gif") no-repeat;
+}
+
+.images-div2:hover {
+  background-image:url("images/internet.jpg")
+}
+
+.images-div4 {
+  width: 500px;
+  height: 275px;
+  background : url("images/sushis.gif") no-repeat;
+}
+
+.images-div4:hover {
+  background-image:url("images/sushi.jpg")
+}
+
+.images-div3 {
+  width: 500px;
+  height: 275px;
+  background : url("images/syfy2.gif") no-repeat;
+}
+
+.images-div3:hover {
+  background-image:url("images/syfy.jpg")
+}
+
+.round-image {
+  border-radius: 50%;
+}
+
+#text-intro {
+  padding-bottom: 50px;
+}
