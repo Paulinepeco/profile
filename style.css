@@ -26,6 +26,40 @@ a:hover {
 #sidebar {
   background-color: #3FAC83;
   position: fixed;
+  width: 85px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#menu {
+  text-align: center;
+  padding-left: 0px;
+  padding-right:0px;
+  padding-top: 0px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#menu a{
+  color: white;
+}
+
+#menu a:hover {
+  color: #F3D54F;
+}
+
+#page-content {
+  margin-left: 100px;
+}
+
+#map {
+  text-align: center;
+}
+
+/*#sidebar {
+  background-color: #3FAC83;
+  position: fixed;
   width: 0px;
   left: 30px;
   top: 0px;
@@ -65,7 +99,7 @@ a:hover {
 
 #page-content {
   margin-top: 120px;
-}
+}*/
 
 .div-style {
   background: white;
